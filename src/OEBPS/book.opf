@@ -1,188 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="3.0">
-    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <dc:title>The Rigel Black Chronicles</dc:title>
-        <dc:language>en</dc:language>
-        <dc:identifier id="BookId">https://www.fanfiction.net/s/7613196/</dc:identifier>
-        <dc:date>2011-12-06T05:57:35Z</dc:date>
-        <dc:description>Harriett Potter dreams of going to Hogwarts, but in an AU where the school only accepts purebloods, the only way to reach her goal is to switch places with her pureblood cousin—the only problem? Her cousin is a boy. Alanna the Lioness take on HP.</dc:description>
-        <dc:publisher>FanFiction.net</dc:publisher>
-        <dc:relation>http://fanfiction.net/</dc:relation>
-        <dc:creator>murkybluematter</dc:creator>
-        <dc:source>https://www.fanfiction.net/s/7613196/</dc:source>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>The Rigel Black Chronicles</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId">https://www.fanfiction.net/s/7613196/</dc:identifier>
+    <dc:date>2011-12-06T05:57:35Z</dc:date>
+    <dc:description>Harriett Potter dreams of going to Hogwarts, but in an AU where the school only accepts purebloods, the only way to reach her goal is to switch places with her pureblood cousin—the only problem? Her cousin is a boy. Alanna the Lioness take on HP.</dc:description>
+    <dc:publisher>FanFiction.net</dc:publisher>
+    <dc:relation>http://fanfiction.net/</dc:relation>
+    <dc:creator>murkybluematter</dc:creator>
+    <dc:source>https://www.fanfiction.net/s/7613196/</dc:source>
         <meta property="dcterms:modified">2021-12-02T20:54:34Z</meta>
-    </metadata>
-    <manifest>
-        <item id="ncx" href="book.ncx" media-type="application/x-dtbncx+xml" />
-<!--
-        <item id="cover" href="cover.jpg" media-type="image/jpeg" properties="cover-image" />
--->
-        <item id="majordivider" href="majordivider.gif" media-type="image/gif" />
-        <item id="minordivider" href="minordivider.gif" media-type="image/gif" />
-        <item id="style" href="style.css" media-type="text/css" />
-        <item id="ref_toc" href="TOC.xhtml" media-type="application/xhtml+xml" properties="nav" />
-        <item id="year1" href="Year1.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp1" href="PP1.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp2" href="PP2.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp3" href="PP3.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp4" href="PP4.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp5" href="PP5.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp6" href="PP6.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp7" href="PP7.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp8" href="PP8.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp9" href="PP9.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp10" href="PP10.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp11" href="PP11.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp12" href="PP12.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp13" href="PP13.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp14" href="PP14.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp15" href="PP15.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp16" href="PP16.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp17" href="PP17.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp18" href="PP18.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp19" href="PP19.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp20" href="PP20.xhtml" media-type="application/xhtml+xml" />
-        <item id="pp21" href="PP21.xhtml" media-type="application/xhtml+xml" />
-        <item id="ppe" href="PPE.xhtml" media-type="application/xhtml+xml" />
-
-        <item id="year2" href="Year2.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss1" href="SS1.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss2" href="SS2.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss3" href="SS3.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss4" href="SS4.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss5" href="SS5.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss6" href="SS6.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss7" href="SS7.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss8" href="SS8.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss9" href="SS9.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss10" href="SS10.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss11" href="SS11.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss12" href="SS12.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss13" href="SS13.xhtml" media-type="application/xhtml+xml" />
-        <item id="ss14" href="SS14.xhtml" media-type="application/xhtml+xml" />
-
-        <item id="year3" href="Year3.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa1" href="AA1.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa2" href="AA2.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa3" href="AA3.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa4" href="AA4.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa5" href="AA5.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa6" href="AA6.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa7" href="AA7.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa8" href="AA8.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa9" href="AA9.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa10" href="AA10.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa11" href="AA11.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa12" href="AA12.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa13" href="AA13.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa14" href="AA14.xhtml" media-type="application/xhtml+xml" />
-        <item id="aa15" href="AA15.xhtml" media-type="application/xhtml+xml" />
-        <item id="aae" href="AAE.xhtml" media-type="application/xhtml+xml" />
-
-        <item id="year4" href="Year4.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff1" href="FF1.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff2" href="FF2.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff3" href="FF3.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff4" href="FF4.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff5" href="FF5.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff6" href="FF6.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff7" href="FF7.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff8" href="FF8.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff9" href="FF9.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff10" href="FF10.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff11" href="FF11.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff12" href="FF12.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff13" href="FF13.xhtml" media-type="application/xhtml+xml" />
-        <item id="ff14" href="FF14.xhtml" media-type="application/xhtml+xml" />
-        <item id="ffe" href="FFE.xhtml" media-type="application/xhtml+xml" />
-
-        <item id="year5" href="Year5.xhtml" media-type="application/xhtml+xml" />
-        <item id="mm1" href="MM1.xhtml" media-type="application/xhtml+xml" />
-        <item id="mm2" href="MM2.xhtml" media-type="application/xhtml+xml" />
-    </manifest>
-    <spine toc="ncx">
-        <itemref idref="ref_toc" />
-        <itemref idref="year1" />
-        <itemref idref="pp1" />
-        <itemref idref="pp2" />
-        <itemref idref="pp3" />
-        <itemref idref="pp4" />
-        <itemref idref="pp5" />
-        <itemref idref="pp6" />
-        <itemref idref="pp7" />
-        <itemref idref="pp8" />
-        <itemref idref="pp9" />
-        <itemref idref="pp10" />
-        <itemref idref="pp11" />
-        <itemref idref="pp12" />
-        <itemref idref="pp13" />
-        <itemref idref="pp14" />
-        <itemref idref="pp15" />
-        <itemref idref="pp16" />
-        <itemref idref="pp17" />
-        <itemref idref="pp18" />
-        <itemref idref="pp19" />
-        <itemref idref="pp20" />
-        <itemref idref="pp21" />
-        <itemref idref="ppe" />
-
-        <itemref idref="year2" />
-        <itemref idref="ss1" />
-        <itemref idref="ss2" />
-        <itemref idref="ss3" />
-        <itemref idref="ss4" />
-        <itemref idref="ss5" />
-        <itemref idref="ss6" />
-        <itemref idref="ss7" />
-        <itemref idref="ss8" />
-        <itemref idref="ss9" />
-        <itemref idref="ss10" />
-        <itemref idref="ss11" />
-        <itemref idref="ss12" />
-        <itemref idref="ss13" />
-        <itemref idref="ss14" />
-
-        <itemref idref="year3" />
-        <itemref idref="aa1" />
-        <itemref idref="aa2" />
-        <itemref idref="aa3" />
-        <itemref idref="aa4" />
-        <itemref idref="aa5" />
-        <itemref idref="aa6" />
-        <itemref idref="aa7" />
-        <itemref idref="aa8" />
-        <itemref idref="aa9" />
-        <itemref idref="aa10" />
-        <itemref idref="aa11" />
-        <itemref idref="aa12" />
-        <itemref idref="aa13" />
-        <itemref idref="aa14" />
-        <itemref idref="aa15" />
-        <itemref idref="aae" />
-
-        <itemref idref="year4" />
-        <itemref idref="ff1" />
-        <itemref idref="ff2" />
-        <itemref idref="ff3" />
-        <itemref idref="ff4" />
-        <itemref idref="ff5" />
-        <itemref idref="ff6" />
-        <itemref idref="ff7" />
-        <itemref idref="ff8" />
-        <itemref idref="ff9" />
-        <itemref idref="ff10" />
-        <itemref idref="ff11" />
-        <itemref idref="ff12" />
-        <itemref idref="ff13" />
-        <itemref idref="ff14" />
-        <itemref idref="ffe" />
-
-        <itemref idref="year5" />
-        <itemref idref="mm1" />
-        <itemref idref="mm2" />
-    </spine>
-    <guide>
-        <reference type="toc" title="Table of Contents" href="TOC.xhtml" />
-        <reference type="text" title="Beginning" href="Year1.xhtml" />
-    </guide>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="book.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="majordivider" href="majordivider.gif" media-type="image/gif"/>
+    <item id="minordivider" href="minordivider.gif" media-type="image/gif"/>
+    <item id="style" href="style.css" media-type="text/css"/>
+    <item id="ref_toc" href="TOC.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="year1" href="Year1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp1" href="PP1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp2" href="PP2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp3" href="PP3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp4" href="PP4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp5" href="PP5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp6" href="PP6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp7" href="PP7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp8" href="PP8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp9" href="PP9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp10" href="PP10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp11" href="PP11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp12" href="PP12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp13" href="PP13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp14" href="PP14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp15" href="PP15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp16" href="PP16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp17" href="PP17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp18" href="PP18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp19" href="PP19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp20" href="PP20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pp21" href="PP21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ppe" href="PPE.xhtml" media-type="application/xhtml+xml"/>
+    <item id="year2" href="Year2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss1" href="SS1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss2" href="SS2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss3" href="SS3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss4" href="SS4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss5" href="SS5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss6" href="SS6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss7" href="SS7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss8" href="SS8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss9" href="SS9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss10" href="SS10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss11" href="SS11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss12" href="SS12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss13" href="SS13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ss14" href="SS14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="year3" href="Year3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa1" href="AA1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa2" href="AA2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa3" href="AA3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa4" href="AA4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa5" href="AA5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa6" href="AA6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa7" href="AA7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa8" href="AA8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa9" href="AA9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa10" href="AA10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa11" href="AA11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa12" href="AA12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa13" href="AA13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa14" href="AA14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aa15" href="AA15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aae" href="AAE.xhtml" media-type="application/xhtml+xml"/>
+    <item id="year4" href="Year4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff1" href="FF1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff2" href="FF2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff3" href="FF3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff4" href="FF4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff5" href="FF5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff6" href="FF6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff7" href="FF7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff8" href="FF8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff9" href="FF9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff10" href="FF10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff11" href="FF11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff12" href="FF12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff13" href="FF13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ff14" href="FF14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ffe" href="FFE.xhtml" media-type="application/xhtml+xml"/>
+    <item id="year5" href="Year5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mm1" href="MM1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mm2" href="MM2.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="ref_toc"/>
+    <itemref idref="year1"/>
+    <itemref idref="pp1"/>
+    <itemref idref="pp2"/>
+    <itemref idref="pp3"/>
+    <itemref idref="pp4"/>
+    <itemref idref="pp5"/>
+    <itemref idref="pp6"/>
+    <itemref idref="pp7"/>
+    <itemref idref="pp8"/>
+    <itemref idref="pp9"/>
+    <itemref idref="pp10"/>
+    <itemref idref="pp11"/>
+    <itemref idref="pp12"/>
+    <itemref idref="pp13"/>
+    <itemref idref="pp14"/>
+    <itemref idref="pp15"/>
+    <itemref idref="pp16"/>
+    <itemref idref="pp17"/>
+    <itemref idref="pp18"/>
+    <itemref idref="pp19"/>
+    <itemref idref="pp20"/>
+    <itemref idref="pp21"/>
+    <itemref idref="ppe"/>
+    <itemref idref="year2"/>
+    <itemref idref="ss1"/>
+    <itemref idref="ss2"/>
+    <itemref idref="ss3"/>
+    <itemref idref="ss4"/>
+    <itemref idref="ss5"/>
+    <itemref idref="ss6"/>
+    <itemref idref="ss7"/>
+    <itemref idref="ss8"/>
+    <itemref idref="ss9"/>
+    <itemref idref="ss10"/>
+    <itemref idref="ss11"/>
+    <itemref idref="ss12"/>
+    <itemref idref="ss13"/>
+    <itemref idref="ss14"/>
+    <itemref idref="year3"/>
+    <itemref idref="aa1"/>
+    <itemref idref="aa2"/>
+    <itemref idref="aa3"/>
+    <itemref idref="aa4"/>
+    <itemref idref="aa5"/>
+    <itemref idref="aa6"/>
+    <itemref idref="aa7"/>
+    <itemref idref="aa8"/>
+    <itemref idref="aa9"/>
+    <itemref idref="aa10"/>
+    <itemref idref="aa11"/>
+    <itemref idref="aa12"/>
+    <itemref idref="aa13"/>
+    <itemref idref="aa14"/>
+    <itemref idref="aa15"/>
+    <itemref idref="aae"/>
+    <itemref idref="year4"/>
+    <itemref idref="ff1"/>
+    <itemref idref="ff2"/>
+    <itemref idref="ff3"/>
+    <itemref idref="ff4"/>
+    <itemref idref="ff5"/>
+    <itemref idref="ff6"/>
+    <itemref idref="ff7"/>
+    <itemref idref="ff8"/>
+    <itemref idref="ff9"/>
+    <itemref idref="ff10"/>
+    <itemref idref="ff11"/>
+    <itemref idref="ff12"/>
+    <itemref idref="ff13"/>
+    <itemref idref="ff14"/>
+    <itemref idref="ffe"/>
+    <itemref idref="year5"/>
+    <itemref idref="mm1"/>
+    <itemref idref="mm2"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="TOC.xhtml"/>
+    <reference type="text" title="Beginning" href="Year1.xhtml"/>
+  </guide>
 </package>
